@@ -1,11 +1,10 @@
 import { createRoot } from "react-dom/client";
-import Test from "./Test";
+import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <h1>Welcome To React</h1>
-      <Test />
+      <Navbar />
     </div>
   );
 };
