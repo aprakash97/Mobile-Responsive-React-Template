@@ -1,10 +1,10 @@
 import { createRoot } from "react-dom/client";
-import Navbar from "./components/navbar/Navbar";
+import Header from "./Header";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
         iure tempore nostrum voluptate mollitia magnam fuga quasi nulla
